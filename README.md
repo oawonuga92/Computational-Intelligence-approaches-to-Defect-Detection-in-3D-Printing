@@ -8,6 +8,6 @@ Since 3D printing involves the use of sensors to monitor environmental condition
 The dataset used in this study is a privately acquired industry data from a company specializing in 3D printing and additive manufacturing. The dataset contains time-series data acquired by two sensor devices monitoring the ambient temperature and relative humidity. These sensors were installed on a FDM 3D printer. The data acquired by the humidity sensor device are clean and free from missing values, while the data acquired by the temperature sensor had missing values. 
 - Linear interpolation was applied to generate missing temperature values.
 - The total number of samples for each acquired sensor data was 600,000 which covers 35 days and 840 hours.
-- Since the major challenge of anomaly detection is the availability of normal samples, we investigated the Numenta Anomaly Benchmark (NAB) [25] real-world machine temperature sensor data to observe how genuine anomalies manifest in real-world streaming applications.
+- Since the major challenge of anomaly detection is the availability of normal samples, we investigated the Numenta Anomaly Benchmark (NAB) real-world machine temperature sensor data to observe how genuine anomalies manifest in real-world streaming applications.
 - In this work, constant values of varying intensities were injected into our temperature and humidity raw sensor data on random dates to simulate anomalies for defect detection. These anomalies are deviations from the normal sequence of temperature and humidity
 
