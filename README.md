@@ -1,0 +1,2 @@
+# Computational-Intelligence-approaches-to-Defect-Detection-in-3D-Printing
+In this work, a unique computational intelligence approach is used for defect defection in a multi-sensor FDM 3D printer. We decompose temperature and humidity data into residual components using STL decomposition. A subtraction technique is then used to reduce two series into one, by focusing directly on a "deviation from correlated behavior".
