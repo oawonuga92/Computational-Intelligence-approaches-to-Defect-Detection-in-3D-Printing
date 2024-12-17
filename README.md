@@ -9,5 +9,6 @@ The dataset used in this study is a privately acquired industry data from a comp
 - Linear interpolation was applied to generate missing temperature values.
 - The total number of samples for each acquired sensor data was 600,000 which covers 35 days and 840 hours.
 - Since the major challenge of anomaly detection is the availability of normal samples, we investigated the Numenta Anomaly Benchmark (NAB) real-world machine temperature sensor data to observe how genuine anomalies manifest in real-world streaming applications.
-- In this work, constant values of varying intensities were injected into our temperature and humidity raw sensor data on random dates to simulate anomalies for defect detection. These anomalies are deviations from the normal sequence of temperature and humidity
+- Mimicing artificial labelling of anomalous dataset in NAB, constant values of varying intensities were injected into our temperature and humidity raw sensor data on random dates to simulate anomalies for defect detection.
+- These synthetic anomalies injected into the dataset for this study are deviations from the normal sequence of temperature and humidity
 
